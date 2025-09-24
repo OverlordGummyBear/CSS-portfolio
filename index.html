@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Daniel Laursen</title>
+</head>
+<body>
+    <!--Hero section - brief introduction to me and my background-->
+    <div class="title-container">
+        <div class="title-text">
+                <h1 style="text-indent: 5px;">Hello, <br> I'm Daniel</br></h1>
+                <h2 class="h2developer" style="text-indent: 5px;"> A Future Software Developer</h2>
+        </div>
+        <div>
+            <div>
+                <img src="./Assets/web-development.png" alt="web development icon" class="web-development-icon">
+            </div>
+        </div>
+    </div>
+    <div class="hero-container">
+        <div>
+            <p> I am currently a student studying Software Design at the IT university of Copenhagen trying to become a Software Developer.
+                I used to study Accounting, but did not find it fulfilling, so I returned to a passion for me which is IT and programming. 
+                <br>
+                <br>
+                I am very excited about growing my skills through projects and continious learning with the goal of  becoming a competent software developer.
+            </p>
+        </div>
+        <div> <img src="./Assets/me.jpg" class="me"> </div> 
+    </div>
+    <!--Resume (education, work experience, skills, and other relevant information e.g. other capstone projects)-->
+    <div class="resume">
+        <h2>Education and Work</h2>
+        <div class="education-container">
+            <div class="resume-img"> <img src="./Assets/itu.jpeg" alt="IT university of Copenhagen" class="itu edupictures"> </div>
+            <div>
+                <div class="resume-item">
+                    <h3>BSc Business Administration & Sociology</h3>
+                    <p>Copenhagen Business School</p>
+                    <p>2020 - 2023</p>
+                </div>
+                <div class="resume-item">
+                    <h3>MSc Software Design</h3>
+                    <p>IT University of Copenhagen</p>
+                    <p>2024 - 2026</p>
+                </div>
+            </div>
+            <div class="resume-img"> <img src="./Assets/kogama.jpg" alt="Multiverse Kogama logo" class="kogama edupictures" > </div>
+            <div class="resume-item"> 
+                <h3>Quality Assurance Tester</h3>
+                <p> Multiverse Aps</p>
+                <p> 2018 - now </p>
+            </div>
+        </div>
+        <h2>My Skills</h2>
+        <div class="skill-container">
+            <div class="skill-img details"> <img src="./Assets/file.png" alt="detail oriented icon"> </div>
+            <div class="skill-img programming"> <img src="./Assets/programming.png" alt="computer icon"></div>
+            <div class="skill-img organized"> <img src="./Assets/task.png" alt="checklist icon"> </div>
+            <div class="skill-text"> 
+                <h3>Detail-oriented</h3>
+                <p>Workingg as a QA tester have taught me to be very precise and concious details. 
+                    This ensures that the developers can reproduce and resolve the bugs I report effectively.
+                </p>
+            </div>
+            <div class="skill-text"> 
+                <h3>Programming</h3>
+                <p>As a Software Design student, I have gained experience with several programming languages, including Java, C#, Python,
+                and F#. Currently I am learning HTML, CSS and JavaScript through an online course to expand web development skills.
+                </p>
+            </div>
+            <div class="skill-text"> 
+                <h3>Organized</h3>
+                <p> Managing multiple courses and projects while also learning new skills in my free time requires strong organizational
+                skills. Being organized allows me to structure my time efficiently and complete all the tasks I set for myself.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Project carousel-->
+    <div class="carousel-container">
+        <h2>Projects</h2>
+        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+            <div class="carousel-indicators"> <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0"
+                    class="active" aria-label="Slide 1" aria-current="true"></button> <button type="button"
+                    data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button> <button
+                    type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active"> <img src="./Assets/tindog.png" alt="tindog"> 
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Tindog</h1>
+
+                            </p>
+                            <p><a class="btn btn-lg btn-info" href="#">View Project</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item"> <svg aria-hidden="true" class="bd-placeholder-img " height="100%" preserveAspectRatio="xMidYMid slice" width="100%"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                </svg>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Placeholder</h1>
+                            <p><a class="btn btn-lg btn-primary" href="#">View Project</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item"> <svg aria-hidden="true" class="bd-placeholder-img " height="100%"
+                        preserveAspectRatio="xMidYMid slice" width="100%" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+                    </svg>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Placeholder</h1>
+                            <p><a class="btn btn-lg btn-primary" href="#">View Project</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div> <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev"> <span
+                    class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span>
+            </button> <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!--Contact me section-->
+    <div class="contact-me">
+        <h2> Contact me</h2>
+        <h3> If you want to work together</h3>
+        <p class="contact-message">Got a project idea, a question, or just want to say hi? Drop me a message — I’d love to hear from you! </p>
+            <a href="mailto:danielwlaursen@gmail.com" class="btn btn-success btn-lg">Contact Me</a>
+    </div>
+
+    <!--Footer-->
+    <div class="footer-container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center"> <a href="/"
+                    class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> <svg
+                        class="bi" width="30" height="24" aria-hidden="true">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg> </a> <span class="mb-3 mb-md-0 text-body-secondary">© Daniel W. Laursen</span> </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram">
+                    <img src="./Assets/facebook.svg" alt="facebook icon">
+                </a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook">
+                    <img src="./Assets/instagram.svg" alt="instagram icon">
+                </a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+</html>
