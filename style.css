@@ -163,15 +163,33 @@ p{
     gap: 50px;
 }
 
-.portfolio-container .project-container{
+.project-container{
+    width: 400px;
+}
+
+.portfolio-container .project-picture-container{
     width: 400px;
     height: 400px;
+    margin-bottom: 20px;
+    padding: 0.5%;
+        background-color: black;
+    
 }
 
 .portfolio-container img{
     object-fit: contain;
     width: 100%;
     height: 100%;
+
+}
+
+.personal-project-text-container{
+    margin: 20px auto;
+    text-align: center;
+}
+
+.project-text-container h2{
+    text-align: center;
 }
 
 @media(min-width: 2000px){
